@@ -1,0 +1,17 @@
+# m开头的单词首字母大写
+# song = """When an eel grabs your arm,
+#     And it causes great harm,
+#     That's - a moray!"""
+
+# print(song.replace('moray', 'Moray'))
+
+
+#使用旧格式化，分别使用'roast beef', 'ham', 'head'和'clam'插值
+# question = (
+#     "my kitty cat likes %s," % "roast beef", 
+#     "my kitty cate likes %s," % "ham", 
+#     "my kitty cat fell on his %s" % "head",
+#     "And now thinks he's a %s." % "clam"
+# )
+
+# print(question)
