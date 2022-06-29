@@ -38,4 +38,20 @@
 # except:
 #     print("no such website", site)
 
-import requests
+# #4.6
+# tweet_limit = 280
+# tweet_string = "Blah" * 50
+# if (diff := tweet_limit - len(tweet_string)) >= 0:
+#     print("A fitting tweet")
+# else:
+#     print("Went over by", abs(diff))
+
+# # 4.8
+# secret = 7
+# guess = int(input("input your number:"))
+# if guess < secret:
+#     print("too low")
+# elif guess > secret:
+#     print("too high")
+# elif guess == secret:
+#     print('just right')
