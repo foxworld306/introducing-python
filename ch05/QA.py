@@ -1,10 +1,7 @@
-from nis import cat
-
-
 salutation = 1
 name = 2
 product = 3
-verbed =4
+verbed = 4
 room = 5
 animals = 'cat'
 amount = 100
