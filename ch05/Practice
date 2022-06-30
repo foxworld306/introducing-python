@@ -63,14 +63,9 @@
 #             num += 1
 #     print('there are', num, 'O')
 
-        
-
-
-
-
-        # else:
-        #     print("there is not 'o'!")
-
-
-
+# range() & list
+# for X in range(0, 10, -1):
+#     print(X)
+# x = list(range(0,3))
+# print(x)
         
