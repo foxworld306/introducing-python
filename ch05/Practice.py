@@ -51,4 +51,20 @@
 # else:
 #     print('No even number found')
 
-    
+# 6.2.3 查找字符串中某个字符并计数
+# word = 'thus!'
+# length = 0
+# num = 0
+# while length < len(word):
+#     for letter in word:
+#         print(letter)
+#         length += 1
+#         if letter == 'o':
+#             num += 1
+#     print('there are', num, 'O')
+
+# range() & list
+# for X in range(0, 10, -1):
+#     print(X)
+# x = list(range(0,3))
+# print(x)
