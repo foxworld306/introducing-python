@@ -69,13 +69,11 @@
 # x = list(range(0,3))
 # print(x)
 
-<<<<<<< HEAD
 # 7.1.1 create a tuple
 # empty_tuple = ()
 # print(empty_tuple)
-one_ele = ('come',)
-print(one_ele)
-=======
+# one_ele = ('come',)
+# print(one_ele)
 # 6.5 01 print a list
 # list = [3, 2, 1, 0, -1]
 # print(*list, sep='\n')
@@ -107,4 +105,23 @@ print(one_ele)
 #         print(a)
 #         print('found it')
 #         break
->>>>>>> cdb54e32083a25090762817067f6e496aa2e2775
+
+#7.1.1 tuple
+# new_tuple = ('hear', 'lesson', 'come')
+# print(new_tuple)
+# a, b, c = new_tuple
+# print(a)
+# print(b)
+# print(c)
+
+#switch tuple
+
+# a = 'sdfjdfs'
+# b = 'adfasfe'
+# a, b = b, a
+# print(a)
+# print(b)
+
+# create a tuple from a list
+# list = ['a', 'b', 'c', 'd']
+# print(tuple(list))
