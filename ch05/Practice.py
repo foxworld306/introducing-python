@@ -69,8 +69,42 @@
 # x = list(range(0,3))
 # print(x)
 
+<<<<<<< HEAD
 # 7.1.1 create a tuple
 # empty_tuple = ()
 # print(empty_tuple)
 one_ele = ('come',)
 print(one_ele)
+=======
+# 6.5 01 print a list
+# list = [3, 2, 1, 0, -1]
+# print(*list, sep='\n')
+
+# for a in list:
+#     print(a)
+
+# 6.5 02
+# guess_me = 7
+# number = 1
+# while number < guess_me:
+#     print('too low')
+#     number+=1
+#     if number == guess_me:
+#         print(number)
+#         print('found it')
+#         break
+#     if number > guess_me:
+#         print('oops')
+#         break
+  
+# 6.5 03
+# guess_me = 5
+# list = range(10)
+# for a in list:
+#     if a < guess_me:
+#         print('too low')
+#     if a == guess_me:
+#         print(a)
+#         print('found it')
+#         break
+>>>>>>> cdb54e32083a25090762817067f6e496aa2e2775
