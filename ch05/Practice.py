@@ -125,3 +125,76 @@
 # create a tuple from a list
 # list = ['a', 'b', 'c', 'd']
 # print(tuple(list))
+
+# copy tuple
+# list = ('yada',) * 3
+# print(list)
+
+#compare tuple
+# a = (7, 2)
+# b = (7, 2, 9)
+# print( a==b)
+# print(a <= b)
+
+# for and in with tuple
+# list = ('come', 'on', 'baby')
+# for word in list:
+#     print(word)
+
+# tuple cannot be changed. it can be plused to a new tuple
+# a = ('come', 'on')
+# b = ('baby',)
+# print(a+b)
+
+# empty list
+# emptylist = [ ]
+# print(emptylist)
+# another_emptylist = list()
+# print(another_emptylist)
+
+# transfer other data types to a list
+# list = list('cats')
+# print(list)
+# a_tuple = ('come', 'on')
+# list = list(a_tuple)
+# print(list)
+# a_string = '06/29/2022'
+# list = list(a_string.split('/'))
+# print(list)
+# a_string = '0/6//2/9//2022'
+# list = list(a_string.split('//'))
+# print(list)
+
+# list = ['come', 'on', 'baby']
+# # print(list[0]+list[2])
+# # print(list[0:2])
+# # print(list[::-1])
+# list.reverse()
+# print(list)
+
+# Add a new element to a list
+# a = ['come', 'on']
+# a.append('baby')
+# print(a)
+
+# Insert an element to a list
+a = ['come', 'on', 'baby']
+# a.insert(1, 'baby')
+# print(a) 
+# a.remove('on')
+# print(a)
+# a.pop(1)
+# print(a)
+# a.clear()
+# print(a)
+
+# print(a.index('on'))
+# print('on' in a)
+# print(a.count('on'))
+# print('*'.join(a))
+# b = '*'.join(a)
+# c = b.split('*')
+# print(c)
+# print(sorted(a))
+a.sort()
+print(a)
