@@ -178,6 +178,13 @@
 # print(a)
 
 # Insert an element to a list
+from audioop import reverse
+from math import ceil
+from socketserver import ThreadingUnixStreamServer
+from statistics import correlation
+import threading
+
+
 a = ['come', 'on', 'baby']
 # a.insert(1, 'baby')
 # print(a) 
@@ -196,5 +203,68 @@ a = ['come', 'on', 'baby']
 # c = b.split('*')
 # print(c)
 # print(sorted(a))
-a.sort()
-print(a)
+# a.sort()
+# print(a)
+# sorted_a = sorted(a)
+# print(sorted_a)
+# a.sort(reverse=True) #降序排列
+# print(a)
+# print(len(a))
+# 浅复制
+# import copy
+# a = [1, 2, [3,4]]
+# b = a.copy()
+# c = list(a)
+# d = a[:]
+# print(b)
+# print(c)
+# print(d)
+# a[2][1] = 5
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+# 深复制 deepcopy()能够处理深嵌套列表、字典以及其他对象。
+# b = copy.deepcopy(a)
+# a[2][1] = 5
+# print(a)
+# print(b)
+#  使用列表推导式
+# a_list = [number for number in range(1, 6)]
+# a_list = [number for number in range(1,11) if number%2 == 0]
+# print(a_list)
+# rows = range(1,4)
+# cols = range(1,3)
+# a_list = [(number, co) for number in rows for co in cols]
+# # for cell in a_list:
+# #     print(cell)
+# for (number, co) in a_list:
+#     print(number, co)
+
+# 7.6 practice
+# 01.创建列表years_list，从你出生的年份开始，向后直到你5岁生日的年份
+# years_list = list(range(1978,1983))
+# print(years_list)
+# print(years_list[2]) #你3岁的时候是years_list中的哪一年
+# print(years_list[-1]) #哪一年你年龄最大
+
+# # 02. 创建名为things的列表，其中包含3个字符串列表项："mozzarella"、"cinderella"和"salmonella"。
+# things = ["mozzarella", "cinderella", "salmonella"]
+# # 将things中代表人名的字符串的首字母变成大写并打印列表。看看列表项有没有变化
+# things[1] = things[1].capitalize()
+# # print(things)
+# # 将things中代表奶酪的列表项改成全大写形式
+# things[2] = str.upper(things[2])
+# #删除0
+# things.pop(0)
+# print(things)
+# 创建名为surprise的列表，其中包含列表项"Groucho"、"Chico"和"Harpo"。
+# surprise = ["Groucho", "Chico", "Harpo"]
+# # 将surprise中最后一个列表项改为小写，然后将其逆置，再大写首字母。
+# surprise[-1] = str.lower(surprise[-1])
+# surprise[-1] = surprise[-1][::-1]
+# surprise[-1] = surprise[-1].capitalize()
+# print(surprise[-1])
+# 使用列表推导式创建包含range(10)之内所有偶数的列表even
+# even = [number for number in range(10) if number % 2 ==0]
+# print(even)
